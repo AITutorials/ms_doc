@@ -1,0 +1,37 @@
+site_name: '基于多模态的视频标签化系统'
+site_url: 'https://www.tisv.cn/'
+# site_description: 'AI Tutorials'
+repo_url: 'https://github.com/AITutorials/datasets'
+repo_name: 'Github | Give Me A Star'
+edit_uri: ''
+
+copyright: ©Copyright 2020, AITutorials.CN This website has been reviewed by the review agency. 京ICP备19006137号
+
+google_analytics: ['UA-36723568-3', 'mkdocs.org']
+
+nav:
+    - 项目背景: 101.md
+    - 任务一:直播间对话数据分析与模型服务构建: 102.md
+    - 任务二:使用BERT系列模型训练获得基线指标: 103.md
+    - 任务三:使用标签平滑技术和SWA优化器进行指标优化: 104.md
+    - 任务四:通过CLS权重分配技术和回译数据增强进行指标优化: 105.md
+    - 项目总结: 109.md
+
+theme:
+  name: 'material'
+  language: 'zh'
+  favicon: 'img/AI.jpg'
+  # feature:
+  #  tabs: true
+  logo: 'img/AI.jpg'
+     #icon: 'star'
+
+
+
+markdown_extensions:
+  - admonition
+  - codehilite
+  - footnotes
+
+
+
